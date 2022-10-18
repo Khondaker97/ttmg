@@ -1,10 +1,10 @@
 import React from 'react';
 import {Button, StyleSheet, Text, View} from 'react-native';
 
-const Landing = ({navigation}) => {
+const Profile = ({navigation}) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Landing</Text>
+      <Text style={styles.text}>Profile</Text>
       <Button title="SignUp" onPress={() => navigation.navigate('SignUp')} />
       <Button title="Login" onPress={() => navigation.navigate('Login')} />
     </View>
@@ -22,4 +22,4 @@ const styles = StyleSheet.create({
     color: 'black',
   },
 });
-export default Landing;
+export default Profile;
